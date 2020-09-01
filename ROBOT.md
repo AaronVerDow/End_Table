@@ -1,1 +1,1 @@
-What goes here?
+{ "ModerationLevel": "communityManaged", "Facilitator": "averdow", "Category": "furniture" }
