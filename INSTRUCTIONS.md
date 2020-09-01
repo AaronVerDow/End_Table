@@ -1,13 +1,15 @@
-* Define overall dimesions
-* Specify number of legs
-* Specify list of shelf types
-  * Round
-  * Straight lines between legs (make squares, octogons, etc)
-  * Leg brace
-* All parts will be laid out and can be exported as svg or dxf
-* Builds 3D preview of the assmbled table
+* Download functions.scad and one of the \*table.scad files.  These must be in the same directory.
+* Open the table file in OpenSCAD
+* Edit variables.  Examples of the impact of these variables are shown below.
+* Render 
+* Export
 
-# Variables
+## shelves
+
+Add numbers to the shelves list to add shelves.  In the examples below:
+* round = 0
+* straight = 1
+* support = 2
 
 ## top
 ![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/top.gif)
@@ -21,8 +23,6 @@
 ![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/leg_layers.gif)
 ## min_leg
 ![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/min_leg.gif)
-## round_table
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/round_table.gif)
 ## top_height
 ![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/top_height.gif)
 
