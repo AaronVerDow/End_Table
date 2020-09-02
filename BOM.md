@@ -1,1 +1,3 @@
-{ "ModerationLevel": "communityManaged", "Facilitator": "averdow", "Category": "furniture" }
+* Plywood
+* Wood glue 
+* Nail gun?

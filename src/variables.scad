@@ -1,13 +1,14 @@
 include <functions.scad>;
 
-square_top=30;
+//square_top=30;
+square_top=30+sin($t*360)*15;
 shelves = [2, 1];
 // 0 = round
 // 1 = square
 // 2 = leg_supports (square)
 shelf_count = len(shelves);
 leg_layers=1;
-leg_count = 4;
+leg_count = 5;
 leg_height = 5.5; // bottom shelf
 top_height = 18; //top to ground
 min_leg = 2; //smallest size a leg can be
@@ -37,8 +38,10 @@ module assembled() {
 
 // RENDER png
 // RENDER svg
+// RENDER scad
 module cutsheet() {
     plate();
 }
 
+rotate([0,0,$t*360/leg_count])
 assembled();

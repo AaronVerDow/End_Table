@@ -1,51 +1,33 @@
-* Download functions.scad and one of the \*table.scad files.  These must be in the same directory.
-* Open the table file in OpenSCAD
-* Edit variables.  Examples of the impact of these variables are shown below.
-* Render 
-* Export
+# Instructions for new users
+* Download the scad files and keep them in the same directory.  
+* functions.scad contains the meat of the code and is not required to be edited.
+* Open variables.scad in OpenSCAD. 
+* Play with the numbers to create the table you want.  This file will show an assembled 3d view of the table.  A visual representation of what the different variables do are show below.
+* Once complete open cutsheet.scad in OpenSCAD
+* Press F6 to render 
+* File -> Export DXF or SVG
+* The cutsheets aren't optomized, the parts will need to be manually dragged around.  Some CAM programs can do this, if not I recommend Inkscape.
 
 ## shelves
 
 Add numbers to the shelves list to add shelves.  In the examples below:
 * round = 0
 * straight = 1
-* support = 2
+* spokes = 2
 
 ## top
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/top.gif)
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/top_demo.gif)
 ## bottom
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/bottom.gif)
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/bottom_demo.gif)
 ## leg_count
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/leg_count.gif)
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/leg_count_demo.gif)
 ## leg_height
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/leg_height.gif)
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/leg_height_demo.gif)
+## leg_support
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/leg_support_demo.gif)
 ## leg_layers
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/leg_layers.gif)
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/leg_layers_demo.gif)
 ## min_leg
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/min_leg.gif)
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/min_leg_demo.gif)
 ## top_height
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/top_height.gif)
-
-# Examples
-
-## Round Table
-This one wasn't very stable, I don't recommend three legs with a round top.
-
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/output/round_table_assembled.png)
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/output/round_table_cutsheet.png)
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/pics/round_table.jpg)
-
-## Square Table
-
-This one worked much better but it was so unremarkable I forgot to take a picture before I threw it away.
-
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/output/square_table_assembled.png)
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/output/square_table_cutsheet.png)
-
-## Crazy Table
-
-Demo of adding many shelves and legs.
-
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/output/so_many_legs_assembled.png)
-![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/output/so_many_legs_cutsheet.png)
-
+![](https://raw.githubusercontent.com/AaronVerDow/End_Table/master/examples/output/top_height_demo.gif)
